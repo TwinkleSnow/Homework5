@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>MAVEN</ID>
+  <OriginalElement>groupId:Homework5:1.0-SNAPSHOT</OriginalElement>
+  <nodes>
+    <node x="0.0" y="286.5">groupId:Homework5:1.0-SNAPSHOT</node>
+    <node x="119.0" y="102.0">javax.annotation:javax.annotation-api:jar:1.3.2</node>
+    <node x="157.0" y="143.0">javax.ejb:ejb-api:jar:3.0</node>
+    <node x="167.5" y="184.0">javax.jms:jms:jar:1.1</node>
+    <node x="117.0" y="225.0">javax.persistence:javax.persistence-api:jar:2.2</node>
+    <node x="124.5" y="0.0">javax.resource:javax.resource-api:jar:1.7.1</node>
+    <node x="131.0" y="266.0">javax.servlet:javax.servlet-api:jar:4.0.1</node>
+    <node x="121.0" y="307.0">javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.3</node>
+    <node x="158.0" y="348.0">javax.servlet.jsp.jstl:jstl-api:jar:1.2</node>
+    <node x="313.5" y="327.5">javax.servlet.jsp.jstl:jstl-api:jar:1.2/javax.servlet:servlet-api:jar:2.5</node>
+    <node x="324.0" y="368.5">javax.servlet.jsp.jstl:jstl-api:jar:1.2/javax.servlet.jsp:jsp-api:jar:2.1</node>
+    <node x="151.5" y="389.0">taglibs:standard:jar:1.1.2</node>
+    <node x="118.0" y="61.0">javax.transaction:javax.transaction-api:jar:1.3</node>
+    <node x="115.0" y="430.0">mysql:mysql-connector-java:jar:8.0.21</node>
+    <node x="304.0" y="430.0">mysql:mysql-connector-java:jar:8.0.21/com.google.protobuf:protobuf-java:jar:3.11.4</node>
+    <node x="142.5" y="573.5">org.apache.struts:struts2-core:jar:2.5.25</node>
+    <node x="311.5" y="471.0">org.apache.struts:struts2-core:jar:2.5.25/org.freemarker:freemarker:jar:2.3.30</node>
+    <node x="331.0" y="512.0">org.apache.struts:struts2-core:jar:2.5.25/ognl:ognl:jar:3.1.28</node>
+    <node x="460.5" y="512.0">org.apache.struts:struts2-core:jar:2.5.25/ognl:ognl:jar:3.1.28/org.javassist:javassist:jar:3.20.0-GA</node>
+    <node x="318.0" y="676.0">org.apache.struts:struts2-core:jar:2.5.25/org.apache.logging.log4j:log4j-api:jar:2.12.1</node>
+    <node x="284.0" y="553.0">org.apache.struts:struts2-core:jar:2.5.25/commons-fileupload:commons-fileupload:jar:1.4</node>
+    <node x="448.0" y="578.25">org.apache.struts:struts2-core:jar:2.5.25/commons-fileupload:commons-fileupload:jar:1.4/commons-io:commons-io:jar:2.2</node>
+    <node x="307.5" y="594.0">org.apache.struts:struts2-core:jar:2.5.25/commons-io:commons-io:jar:2.6</node>
+    <node x="297.0" y="635.0">org.apache.struts:struts2-core:jar:2.5.25/org.apache.commons:commons-lang3:jar:3.8.1</node>
+    <node x="155.0" y="511.3009259259259">org.mybatis:mybatis:jar:3.5.6</node>
+    <node x="147.5" y="681.25">org.apache.logging.log4j:log4j-core:jar:2.12.1</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="groupId:Homework5:1.0-SNAPSHOT" target="javax.resource:javax.resource-api:jar:1.7.1">
+      <point x="47.5" y="-9.75" />
+      <point x="-65.0" y="-0.0" />
+    </edge>
+    <edge source="groupId:Homework5:1.0-SNAPSHOT" target="javax.jms:jms:jar:1.1">
+      <point x="47.5" y="-3.75" />
+      <point x="115.0" y="194.5" />
+      <point x="-22.0" y="-0.0" />
+    </edge>
+    <edge source="groupId:Homework5:1.0-SNAPSHOT" target="javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.3">
+      <point x="47.5" y="0.75" />
+      <point x="-68.5" y="-0.0" />
+    </edge>
+    <edge source="org.apache.struts:struts2-core:jar:2.5.25/commons-fileupload:commons-fileupload:jar:1.4" target="org.apache.struts:struts2-core:jar:2.5.25/commons-fileupload:commons-fileupload:jar:1.4/commons-io:commons-io:jar:2.2">
+      <point x="72.0" y="-0.0" />
+      <point x="-48.5" y="-5.25" />
+    </edge>
+    <edge source="org.apache.struts:struts2-core:jar:2.5.25/commons-fileupload:commons-fileupload:jar:1.4/commons-io:commons-io:jar:2.2" target="org.apache.struts:struts2-core:jar:2.5.25/commons-io:commons-io:jar:2.6">
+      <point x="-48.5" y="5.25" />
+      <point x="428.0" y="604.5" />
+      <point x="48.5" y="-0.0" />
+    </edge>
+    <edge source="javax.servlet.jsp.jstl:jstl-api:jar:1.2" target="javax.servlet.jsp.jstl:jstl-api:jar:1.2/javax.servlet.jsp:jsp-api:jar:2.1">
+      <point x="31.5" y="5.25" />
+      <point x="264.0" y="363.75" />
+      <point x="284.0" y="379.0" />
+      <point x="-32.0" y="-0.0" />
+    </edge>
+    <edge source="groupId:Homework5:1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:4.0.1">
+      <point x="47.5" y="-0.75" />
+      <point x="115.0" y="276.5" />
+      <point x="-58.5" y="-0.0" />
+    </edge>
+    <edge source="org.apache.struts:struts2-core:jar:2.5.25" target="org.apache.struts:struts2-core:jar:2.5.25/org.apache.logging.log4j:log4j-api:jar:2.12.1">
+      <point x="47.0" y="8.75" />
+      <point x="264.0" y="592.75" />
+      <point x="284.0" y="681.25" />
+      <point x="-38.0" y="-5.25" />
+    </edge>
+    <edge source="groupId:Homework5:1.0-SNAPSHOT" target="taglibs:standard:jar:1.1.2">
+      <point x="47.5" y="3.75" />
+      <point x="115.0" y="399.5" />
+      <point x="-38.0" y="-0.0" />
+    </edge>
+    <edge source="org.apache.struts:struts2-core:jar:2.5.25" target="org.apache.struts:struts2-core:jar:2.5.25/ognl:ognl:jar:3.1.28">
+      <point x="47.0" y="-5.25" />
+      <point x="264.0" y="578.75" />
+      <point x="284.0" y="522.5" />
+      <point x="-25.0" y="-0.0" />
+    </edge>
+    <edge source="groupId:Homework5:1.0-SNAPSHOT" target="javax.ejb:ejb-api:jar:3.0">
+      <point x="47.5" y="-5.25" />
+      <point x="115.0" y="153.5" />
+      <point x="-32.5" y="-0.0" />
+    </edge>
+    <edge source="org.apache.struts:struts2-core:jar:2.5.25" target="org.apache.struts:struts2-core:jar:2.5.25/commons-io:commons-io:jar:2.6">
+      <point x="47.0" y="1.75" />
+      <point x="264.0" y="585.75" />
+      <point x="284.0" y="604.5" />
+      <point x="-48.5" y="-0.0" />
+    </edge>
+    <edge source="org.apache.struts:struts2-core:jar:2.5.25" target="org.apache.struts:struts2-core:jar:2.5.25/org.apache.commons:commons-lang3:jar:3.8.1">
+      <point x="47.0" y="5.25" />
+      <point x="264.0" y="589.25" />
+      <point x="284.0" y="645.5" />
+      <point x="-59.0" y="-0.0" />
+    </edge>
+    <edge source="org.apache.logging.log4j:log4j-core:jar:2.12.1" target="org.apache.struts:struts2-core:jar:2.5.25/org.apache.logging.log4j:log4j-api:jar:2.12.1">
+      <point x="42.0" y="-0.0" />
+      <point x="-38.0" y="5.25" />
+    </edge>
+    <edge source="groupId:Homework5:1.0-SNAPSHOT" target="javax.transaction:javax.transaction-api:jar:1.3">
+      <point x="47.5" y="-8.25" />
+      <point x="-71.5" y="-0.0" />
+    </edge>
+    <edge source="groupId:Homework5:1.0-SNAPSHOT" target="javax.servlet.jsp.jstl:jstl-api:jar:1.2">
+      <point x="47.5" y="2.25" />
+      <point x="115.0" y="358.5" />
+      <point x="-31.5" y="-0.0" />
+    </edge>
+    <edge source="org.apache.struts:struts2-core:jar:2.5.25" target="org.apache.struts:struts2-core:jar:2.5.25/commons-fileupload:commons-fileupload:jar:1.4">
+      <point x="47.0" y="-1.75" />
+      <point x="264.0" y="582.25" />
+      <point x="-72.0" y="-0.0" />
+    </edge>
+    <edge source="groupId:Homework5:1.0-SNAPSHOT" target="org.apache.logging.log4j:log4j-core:jar:2.12.1">
+      <point x="47.5" y="9.75" />
+      <point x="115.0" y="691.75" />
+      <point x="-42.0" y="-0.0" />
+    </edge>
+    <edge source="groupId:Homework5:1.0-SNAPSHOT" target="org.apache.struts:struts2-core:jar:2.5.25">
+      <point x="47.5" y="8.25" />
+      <point x="115.0" y="584.0" />
+      <point x="-47.0" y="-0.0" />
+    </edge>
+    <edge source="groupId:Homework5:1.0-SNAPSHOT" target="javax.persistence:javax.persistence-api:jar:2.2">
+      <point x="47.5" y="-2.25" />
+      <point x="-72.5" y="-0.0" />
+    </edge>
+    <edge source="groupId:Homework5:1.0-SNAPSHOT" target="javax.annotation:javax.annotation-api:jar:1.3.2">
+      <point x="47.5" y="-6.75" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="org.apache.struts:struts2-core:jar:2.5.25/ognl:ognl:jar:3.1.28" target="org.apache.struts:struts2-core:jar:2.5.25/ognl:ognl:jar:3.1.28/org.javassist:javassist:jar:3.20.0-GA">
+      <point x="25.0" y="-0.0" />
+      <point x="-36.0" y="-0.0" />
+    </edge>
+    <edge source="org.apache.struts:struts2-core:jar:2.5.25" target="org.apache.struts:struts2-core:jar:2.5.25/org.freemarker:freemarker:jar:2.3.30">
+      <point x="47.0" y="-8.75" />
+      <point x="264.0" y="575.25" />
+      <point x="284.0" y="481.5" />
+      <point x="-44.5" y="-0.0" />
+    </edge>
+    <edge source="javax.servlet.jsp.jstl:jstl-api:jar:1.2" target="javax.servlet.jsp.jstl:jstl-api:jar:1.2/javax.servlet:servlet-api:jar:2.5">
+      <point x="31.5" y="-5.25" />
+      <point x="264.0" y="353.25" />
+      <point x="284.0" y="338.0" />
+      <point x="-42.5" y="-0.0" />
+    </edge>
+    <edge source="groupId:Homework5:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.5.6">
+      <point x="47.5" y="6.75" />
+      <point x="115.0" y="521.8009259259259" />
+      <point x="-34.5" y="-0.0" />
+    </edge>
+    <edge source="javax.resource:javax.resource-api:jar:1.7.1" target="javax.transaction:javax.transaction-api:jar:1.3">
+      <point x="0.0" y="10.5" />
+      <point x="0.0" y="-10.5" />
+    </edge>
+    <edge source="mysql:mysql-connector-java:jar:8.0.21" target="mysql:mysql-connector-java:jar:8.0.21/com.google.protobuf:protobuf-java:jar:3.11.4">
+      <point x="74.5" y="-0.0" />
+      <point x="-52.0" y="-0.0" />
+    </edge>
+    <edge source="groupId:Homework5:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:8.0.21">
+      <point x="47.5" y="5.25" />
+      <point x="-74.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7980636237897649" x="272.5" y="351.5" />
+  <SelectedNodes>
+    <node>groupId:Homework5:1.0-SNAPSHOT</node>
+  </SelectedNodes>
+  <Categories />
+  <VISIBILITY>All</VISIBILITY>
+</Diagram>
+

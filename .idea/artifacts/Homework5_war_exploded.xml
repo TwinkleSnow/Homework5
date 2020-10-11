@@ -1,0 +1,40 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Homework5:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Homework5_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Homework5" />
+          <element id="library" level="application" name="bootstrap" />
+          <element id="library" level="application" name="jquery" />
+          <element id="jpa-descriptors" facet="Homework5/jpa/JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.3.2" />
+          <element id="library" level="project" name="Maven: javax.jms:jms:1.1" />
+          <element id="library" level="project" name="Maven: javax.persistence:javax.persistence-api:2.2" />
+          <element id="library" level="project" name="Maven: javax.resource:javax.resource-api:1.7.1" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:jstl-api:1.2" />
+          <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
+          <element id="library" level="project" name="Maven: javax.transaction:javax.transaction-api:1.3" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.21" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="library" level="project" name="Maven: org.apache.struts:struts2-core:2.5.25" />
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.30" />
+          <element id="library" level="project" name="Maven: ognl:ognl:3.1.28" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.12.1" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.4" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.6" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.8.1" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.13.3" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.1" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Homework5/web/Web" />
+      <element id="javaee-facet-resources" facet="Homework5/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

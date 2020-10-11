@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="Homework5:javaEEApplication exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Homework5_javaEEApplication_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Homework5/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="Homework5.war">
+        <element id="artifact" artifact-name="Homework5:war exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.12.1" />
+      </element>
+    </root>
+  </artifact>
+</component>
